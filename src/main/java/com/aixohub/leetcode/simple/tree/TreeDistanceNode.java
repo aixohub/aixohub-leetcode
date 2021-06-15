@@ -13,4 +13,5 @@ package com.aixohub.leetcode.simple.tree;
  * 5~6：4
  */
 public class TreeDistanceNode {
+
 }

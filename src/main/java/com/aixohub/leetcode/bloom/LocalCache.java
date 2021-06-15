@@ -1,10 +1,7 @@
 package com.aixohub.leetcode.bloom;
 
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 /**
  * 1. key对应对象在cache，直接返回结果
@@ -40,7 +37,7 @@ public class LocalCache {
 
 
         ThreadObject threadObject = new ThreadObject(key, LOCAL_TIME, LOCAL_CALC);
-        executorService.submit(threadObject);
+        Future future = executorService.submit(threadObject);
 
         return LOCAL_CACHE.get(key);
 

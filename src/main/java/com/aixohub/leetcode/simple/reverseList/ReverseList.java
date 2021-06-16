@@ -21,6 +21,9 @@ public class ReverseList {
         ListNode newHead = reverseList(head.next);
         head.next.next = head;
         head.next = null;
+        System.out.println(ListNode.listNodeToString(newHead));
+        System.out.println(ListNode.listNodeToString(head));
+        System.out.println(("-------------"));
         return newHead;
     }
 }

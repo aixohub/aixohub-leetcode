@@ -14,4 +14,7 @@ package com.aixohub.leetcode.simple.tree;
  */
 public class TreeDistanceNode {
 
+    public static void main(String[] args) {
+
+    }
 }

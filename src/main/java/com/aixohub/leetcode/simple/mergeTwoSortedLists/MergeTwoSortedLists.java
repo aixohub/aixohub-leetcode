@@ -27,7 +27,7 @@ public class MergeTwoSortedLists {
         ListNode l1 = ListNode.stringToListNode("1,2,4");
         ListNode l2 = ListNode.stringToListNode("1,3,4");
 
-        ListNode ret = new MergeTwoSortedLists().mergeTwoLists(l1, l2);
+        ListNode ret = MergeTwoSortedLists.mergeTwoLists(l1, l2);
 
         String s = ListNode.listNodeToString(ret);
         System.out.println(s);

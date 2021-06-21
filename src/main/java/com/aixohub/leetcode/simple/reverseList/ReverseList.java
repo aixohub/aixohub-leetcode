@@ -1,6 +1,6 @@
 package com.aixohub.leetcode.simple.reverseList;
 
-import com.aixohub.leetcode.simple.node.ListNode;
+import com.aixohub.leetcode.node.ListNode;
 
 public class ReverseList {
 

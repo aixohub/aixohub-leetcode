@@ -1,0 +1,799 @@
+文件夹 PATH 列表
+卷序列号为 821D-6E2A
+D:.
+│  .gitignore
+│  .nojekyll
+│  index.html
+│  list.txt
+│  README.md
+│  _sidebar.md
+│  
+├─01 Java基础
+│  │  .gitkeep
+│  │  README.md
+│  │  
+│  ├─01 循环嵌套
+│  │      .gitkeep
+│  │      循环可控
+│  │      
+│  ├─02 Java内存模型
+│  │  │  .gitkeep
+│  │  │  g1.md
+│  │  │  JAVA内存模型拨乱反正.md
+│  │  │  
+│  │  ├─case1
+│  │  │  │  记一次jdsmart-ob内存报警问题分析.md
+│  │  │  │  
+│  │  │  └─img
+│  │  │          TimLine图片20181214105832.jpg
+│  │  │          TimLine图片20181214105934.jpg
+│  │  │          TimLine图片20181214105938.jpg
+│  │  │          TimLine图片20181214134552.jpg
+│  │  │          TimLine截图20181214112020.png
+│  │  │          TimLine截图20181214112116.png
+│  │  │          TimLine截图20181214113038.png
+│  │  │          TimLine截图20181214132534.png
+│  │  │          TimLine截图20181214133924.png
+│  │  │          TimLine截图20181214133944.png
+│  │  │          TimLine截图20181217112229.png
+│  │  │          TimLine截图20181217132921.png
+│  │  │          
+│  │  ├─g1
+│  │  │      g1-memory-model.png
+│  │  │      generations.png
+│  │  │      
+│  │  └─jvm_pic
+│  │          .gitkeep
+│  │          
+│  ├─03 Java序列化机制
+│  │      .gitkeep
+│  │      深入分析Java的序列化与反序列化.md
+│  │      
+│  ├─04 类结构与加载机制
+│  │  │  .gitkeep
+│  │  │  
+│  │  └─Java类加载器ClassLoader
+│  │          .gitkeep
+│  │          2.jpg
+│  │          3.jpg
+│  │          4.jpg
+│  │          5.jpg
+│  │          6.jpg
+│  │          7.jpg
+│  │          8.jpg
+│  │          Java类加载器ClassLoader.md
+│  │          TimLine图片20180806122600.jpg
+│  │          
+│  ├─05 接口与抽象类
+│  │      .gitkeep
+│  │      浅析JAVA接口和抽象类的使用.md
+│  │      
+│  ├─06 日志
+│  │  │  .gitkeep
+│  │  │  
+│  │  └─log4j2的使用及注意事项
+│  │      │  .gitkeep
+│  │      │  README.md
+│  │      │  
+│  │      └─img
+│  │              AsyncThroughputLogger.png
+│  │              log4j2-bridge.png
+│  │              SyncThroughputLogger.png
+│  │              
+│  ├─07 Java异常处理
+│  │  │  .gitkeep
+│  │  │  Java异常类结构.png
+│  │  │  Java项目中的异常处理.PNG
+│  │  │  README.md
+│  │  │  
+│  │  └─深入浅出JAVA异常处理
+│  │      │  README.md
+│  │      │  
+│  │      └─img
+│  │              异常类层次结构图.png
+│  │              
+│  ├─08 Java泛型
+│  │  │  .gitkeep
+│  │  │  
+│  │  └─深入理解Java泛化机制
+│  │          README.md
+│  │          
+│  └─09 JVM参数
+│      │  .gitkeep
+│      │  
+│      ├─JVM备战参数之XSS
+│      │  │  .gitkeep
+│      │  │  README.md
+│      │  │  
+│      │  └─img
+│      │          .gitkeep
+│      │          java_stack.PNG
+│      │          Java标准参数.PNG
+│      │          Java非标准参数.PNG
+│      │          内存分布.png
+│      │          线程公式.PNG
+│      │          
+│      └─常见OOM异常原理分析
+│              .gitkeep
+│              常见OOM异常原理分析.pdf
+│              
+├─02 Java进阶
+│  │  .gitkeep
+│  │  
+│  ├─01 Java Instrumentation
+│  │  │  .gitkeep
+│  │  │  Java agent与Instrumentation入门.md
+│  │  │  
+│  │  └─Java Instrumentation机制及一些工具介绍
+│  │          .gitkeep
+│  │          
+│  ├─02 Java Annotation
+│  │  │  .gitkeep
+│  │  │  java Annotation基础.md
+│  │  │  
+│  │  └─image
+│  │          .gitkeep
+│  │          001.png
+│  │          002.png
+│  │          
+│  ├─03 CMS
+│  │  │  .gitkeep
+│  │  │  CMS垃圾回收机制.pdf
+│  │  │  
+│  │  └─JVM之CMS
+│  │      │  .gitkeep
+│  │      │  gc1.png
+│  │      │  README.md
+│  │      │  
+│  │      └─CMS(上)
+│  │              .gitkeep
+│  │              README.md
+│  │              
+│  ├─04 字节码增强
+│  │  │  .gitkeep
+│  │  │  字节码增强技术与动态代理.md
+│  │  │  
+│  │  ├─DynamicProxyStudy
+│  │  │  │  asm-5.0.4.jar
+│  │  │  │  cglib-2.2.jar
+│  │  │  │  DynamicProxyStudy.iml
+│  │  │  │  javassist-3.19.0-GA.jar
+│  │  │  │  
+│  │  │  └─src
+│  │  │      ├─asm
+│  │  │      │      MyClassLoader.java
+│  │  │      │      MyGenerator.java
+│  │  │      │      MyTest.java
+│  │  │      │      
+│  │  │      ├─dynamicProxy
+│  │  │      │  ├─cglib
+│  │  │      │  │      Hacker.java
+│  │  │      │  │      Programmer.java
+│  │  │      │  │      Test.java
+│  │  │      │  │      
+│  │  │      │  └─jdk
+│  │  │      │      │  ElectricCar.java
+│  │  │      │      │  InvocationHandlerImpl.java
+│  │  │      │      │  Rechargable.java
+│  │  │      │      │  Test.java
+│  │  │      │      │  Vehicle.java
+│  │  │      │      │  
+│  │  │      │      └─proxyUtil
+│  │  │      │              ProxyUtils.java
+│  │  │      │              Test.java
+│  │  │      │              
+│  │  │      ├─javassist
+│  │  │      │      MyClassLoader.java
+│  │  │      │      MyGenerator.java
+│  │  │      │      MyTest.java
+│  │  │      │      
+│  │  │      ├─jvm
+│  │  │      │  └─classloader
+│  │  │      │          MyClassLoader.java
+│  │  │      │          MyTest.java
+│  │  │      │          Programmer.java
+│  │  │      │          
+│  │  │      └─staticProxy
+│  │  │          │  Station.java
+│  │  │          │  StationProxy.java
+│  │  │          │  TicketService.java
+│  │  │          │  
+│  │  │          └─javassit
+│  │  │                  Test.java
+│  │  │                  
+│  │  └─image
+│  │          001_java_classloader.png
+│  │          002_java_bytecode_edit_loader.png
+│  │          003_asm_genrator_programmer.png
+│  │          004_asm_genrator_programmer_run_result.png
+│  │          005_javassit_genrator_programmer.png
+│  │          006_static_proxy_model.png
+│  │          007_tikets_sold_proxy_model.png
+│  │          008_tickets_sold_javassit_run_result.png
+│  │          009_proxy_role_function.png
+│  │          010_invocation_handler_role.jpeg
+│  │          011_electricCar_class_graph.jpeg
+│  │          012_java_dynamic_proxy_run_result.png
+│  │          013_electricCar_generic_class_graph.jpeg
+│  │          014_cglib_hacker_run_result.jpeg
+│  │          
+│  ├─05 设计模式
+│  │  │  .gitkeep
+│  │  │  设计模式之代理模式.md
+│  │  │  设计模式之状态模式.md
+│  │  │  设计模式之策略模式.md
+│  │  │  设计模式之责任链模式.md
+│  │  │  
+│  │  ├─img
+│  │  │      .gitkeep
+│  │  │      clip_image001.png
+│  │  │      clip_image002.png
+│  │  │      clip_image003.png
+│  │  │      clip_image004.jpg
+│  │  │      clip_image005.png
+│  │  │      clip_image006.jpg
+│  │  │      clip_image007.png
+│  │  │      clip_image008.jpg
+│  │  │      proxy_img001.png
+│  │  │      proxy_img002.png
+│  │  │      proxy_img003.png
+│  │  │      proxy_img004.png
+│  │  │      state_00.png
+│  │  │      strategy_.jpg
+│  │  │      
+│  │  ├─springmvc中模板模式的应用
+│  │  │      README.md
+│  │  │      
+│  │  ├─spring中模板模式应用
+│  │  │  │  README.md
+│  │  │  │  
+│  │  │  └─img
+│  │  │          模板方法模式的通用类图.png
+│  │  │          
+│  │  ├─spring中策略模式的实现
+│  │  │  │  README.md
+│  │  │  │  
+│  │  │  └─img
+│  │  │          代理对象创建的策略模式.png
+│  │  │          代理对象创建的策略模式.puml
+│  │  │          策略模式的结构.png
+│  │  │          策略模式的结构.puml
+│  │  │          
+│  │  └─一些设计模式的组合应用
+│  │          .gitkeep
+│  │          
+│  ├─06 Java新特性
+│  │      .gitkeep
+│  │      Java新特性
+│  │      java新特性.md
+│  │      
+│  ├─07 多线程与线程安全
+│  │  │  .gitkeep
+│  │  │  Java 线程机制.md
+│  │  │  Java线程安全机制.md
+│  │  │  
+│  │  ├─images
+│  │  │      .gitkeep
+│  │  │      Thread in Java.png
+│  │  │      单线程方式.png
+│  │  │      多线程方式.png
+│  │  │      
+│  │  └─images2
+│  │          .gitkeep
+│  │          1.png
+│  │          2.png
+│  │          3.png
+│  │          4.png
+│  │          5.png
+│  │          6.png
+│  │          7.png
+│  │          8.png
+│  │          
+│  ├─08 反射
+│  │      .gitkeep
+│  │      README.md
+│  │      
+│  ├─09 Java网络编程
+│  │  │  .gitkeep
+│  │  │  使用netty.md
+│  │  │  使用netty.pdf
+│  │  │  
+│  │  └─images
+│  │          netty_arch.jpg
+│  │          netty_pipeline.jpg
+│  │          
+│  ├─10 Java IO模型
+│  │  │  .gitkeep
+│  │  │  
+│  │  └─Java IO
+│  │          1500533719506.png
+│  │          1500606080838.png
+│  │          1500614853995.png
+│  │          1500615238809.png
+│  │          1536816107984.png
+│  │          20170720135207.png
+│  │          README.md
+│  │          
+│  └─11 并发编程
+│      │  .gitkeep
+│      │  
+│      └─java并发机制原理
+│          │  java并发机制原理.md
+│          │  Java并发编程-模式分析.md
+│          │  
+│          └─img
+│                  img1.png
+│                  img10.png
+│                  img11.png
+│                  img12.png
+│                  img2.png
+│                  
+├─03 数据库
+│  │  .gitkeep
+│  │  
+│  ├─01 SQL优化
+│  │      .gitkeep
+│  │      2001.png
+│  │      2002.png
+│  │      Delete Index Merge操作引起的执行计划异常.md
+│  │      MySQL查询之OR操作优化.md
+│  │      错误表关联条件导致的性能问题.md
+│  │      
+│  ├─02 索引技巧与使用
+│  │  │  .gitkeep
+│  │  │  
+│  │  ├─InnoDB MVCC的实现原理
+│  │  │  │  README.md
+│  │  │  │  
+│  │  │  └─img
+│  │  │          Innodb-row-struct.png
+│  │  │          purge.png
+│  │  │          readView.png
+│  │  │          trx-chain.png
+│  │  │          trx.png
+│  │  │          
+│  │  └─根据树型数据结构分析Mysql索引
+│  │      │  README.md
+│  │      │  
+│  │      └─img
+│  │              img_0.png
+│  │              img_1.png
+│  │              img_10.png
+│  │              img_11.png
+│  │              img_12.png
+│  │              img_13.png
+│  │              img_14.gif
+│  │              img_15.png
+│  │              img_2.jpg
+│  │              img_3.png
+│  │              img_4.png
+│  │              img_5.png
+│  │              img_6.png
+│  │              img_7.png
+│  │              img_8.png
+│  │              img_9.png
+│  │              图片1.jpg
+│  │              
+│  ├─SQL优化原理
+│  │      .gitkeep
+│  │      ex1.jpg
+│  │      ex2.jpg
+│  │      sql优化原理.md
+│  │      执行顺序.png
+│  │      生命周期.png
+│  │      逻辑架构.png
+│  │      
+│  ├─数据库事务和锁原理解析
+│  │      .gitkeep
+│  │      数据库事务和锁原理解析.md
+│  │      
+│  └─死锁案例
+│          .gitkeep
+│          
+├─04 质量保障
+│  │  .gitkeep
+│  │  
+│  ├─01 测试
+│  │      .gitkeep
+│  │      
+│  ├─02 单元测试最佳实践
+│  │  │  .gitkeep
+│  │  │  unittest-01.md
+│  │  │  
+│  │  └─pic
+│  │          .gitkeep
+│  │          单测5类测试点.png
+│  │          
+│  └─03 线上故障定位方法
+│          .gitkeep
+│          线上故障定位方法.md
+│          
+├─05 前端
+│  │  .gitkeep
+│  │  
+│  ├─01 前端组件
+│  │  │  .gitkeep
+│  │  │  
+│  │  └─Zr
+│  │          config.md
+│  │          plan.md
+│  │          PRO.md
+│  │          quickStart.md
+│  │          
+│  ├─02 JS
+│  │      .gitkeep
+│  │      
+│  └─03 CSS
+│      │  .gitkeep
+│      │  
+│      └─CSS使用教程
+│          │  CSS
+│          │  css使用说明.md
+│          │  README.md
+│          │  
+│          └─css——pic
+│                  .gitkeep
+│                  css1.png
+│                  css2.png
+│                  css3.png
+│                  css4.png
+│                  
+├─06 大数据
+│  │  .gitkeep
+│  │  README.md
+│  │  
+│  ├─01 算法
+│  │  │  README.md
+│  │  │  
+│  │  ├─数据探险一族带你开启机器学习之旅
+│  │  │  ├─经典机器学习模型(上)
+│  │  │  │  │  .gitkeep
+│  │  │  │  │  Bayes and Naive Bayes.md
+│  │  │  │  │  Lasso回归与最小角回归.md
+│  │  │  │  │  主成分分析.md
+│  │  │  │  │  岭回归.md
+│  │  │  │  │  弹性网络.md
+│  │  │  │  │  极大似然估计.md
+│  │  │  │  │  线性回归.md
+│  │  │  │  │  逐步回归与赤池信息准则(AIC).md
+│  │  │  │  │  逻辑回归.md
+│  │  │  │  │  
+│  │  │  │  └─media
+│  │  │  │          00d101059c79fb984bbcf2ab2cda9f77.png
+│  │  │  │          06553f8a5b894e5b6fccb5860b8a81ce.png
+│  │  │  │          0a59b5d5027000c8d200d155a49d35cb.png
+│  │  │  │          12f14023dfbfce36a3c97658632b5b0a.png
+│  │  │  │          1410351524d2ae70b1eae33aad11ad2d.png
+│  │  │  │          1539867286.jpg
+│  │  │  │          174311df61003482f6f44e8bd7f06b22.png
+│  │  │  │          197d605aa74bee1556720ea248bab182.jpg
+│  │  │  │          1bb8d6f83b84d5ba2b9f95f7f25d7e51.jpg
+│  │  │  │          24568a97fd92181d5b85179d5c804f09.png
+│  │  │  │          279127bd7965cc129056c5112a6c3ec3.png
+│  │  │  │          29825b97ff0f312a433abbe3c8724d38.png
+│  │  │  │          29c12ee079c079c6408ee032870b2683.jpg
+│  │  │  │          2cd2993081a28e706a73a6eacd074c15.png
+│  │  │  │          3104ab1b76e5bb77d581e166ab8aa669.png
+│  │  │  │          32b7f4574a51895ba6b609cd5c99b5fd.png
+│  │  │  │          347b54c80e8974b3ea0ea3aa05ebd91b.png
+│  │  │  │          34ed7aefe142932d028cbe4478d50ee9.png
+│  │  │  │          36babb0138a688275c240efc97bc57a0.png
+│  │  │  │          41797ceb7293b838a3125ba945624cf6.png
+│  │  │  │          42a4d42840a7e9be205c61a1715e90cf.png
+│  │  │  │          44c68412e65e62686a96ad16f278571f.png
+│  │  │  │          4acec6cf63f73a32bf1c110202b6a493.png
+│  │  │  │          4b36e51b5751880ba2d1af725f41bc7a.png
+│  │  │  │          4bc386109f69327f3bbf5f9cc9e65078.png
+│  │  │  │          4e51b632545c8c8e68a0fbfd5e4f82a9.png
+│  │  │  │          53011a45a5a424aab5d9c7d606fcc6c2.png
+│  │  │  │          54249cb51f0086fa6a805291bf2639f1.png
+│  │  │  │          545fcfa517c573cb92f1f955bdadcb0e.png
+│  │  │  │          57a7c4b8ce706517e489d5459c459822.png
+│  │  │  │          591785837c95bca369021efa14a8bb1c.png
+│  │  │  │          5b67264df48a6ca4808ea4e48b026325.png
+│  │  │  │          5da75bef000f80abb781625b198a1a58.png
+│  │  │  │          5f096ff1859a7aad872bee5d6a015b57.png
+│  │  │  │          6168b654649a0537c67df6f2454dc9ba.png
+│  │  │  │          62ea98bececcb66ffcfae7a384606bb1.png
+│  │  │  │          638285ace1ffc301a09c22a72c7ff401.png
+│  │  │  │          64a59778e1794136b4e1bed0a43bb0aa.png
+│  │  │  │          68465ffcfd2e6463d92ae06795eea062.jpg
+│  │  │  │          697289f1db9398ca57aea561b8e57093.png
+│  │  │  │          6bdaff07783e37fcbb1f8765ca06b01b.png
+│  │  │  │          6c6d1e7d40935eacf9eab4571a03a1de.png
+│  │  │  │          7069dc6d5aa2b1ace288d7a5263cb5fe.png
+│  │  │  │          70c0a3732096eec3dd98028f0ae30eff.png
+│  │  │  │          725029f2e7633c15d44dc1eed88dfebd.png
+│  │  │  │          872f84df864fee562705b87e373ed45f.png
+│  │  │  │          8ec46ff34780acf10d8ec487ab93fb1a.png
+│  │  │  │          914120738904a1edca4dc76be52bc9a5.png
+│  │  │  │          98b807bc460f617be25fba6f9a5eef87.png
+│  │  │  │          98cef541809f56948bb814b856b9dd2b.png
+│  │  │  │          9ca0bde156af494c35ce6a65ccb9822b.png
+│  │  │  │          9ca5c74b8879b55e76ee7938d5a2beb5.png
+│  │  │  │          9fbd01da3ad2014becf0186822c2102d.jpg
+│  │  │  │          a2f4ec104f2c5677727ddd4614d08630.jpg
+│  │  │  │          a4477d787f876ae4e72cb416a2cb0b8a.jpg
+│  │  │  │          a5ac0dab723df0093ab3c0988b2f5587.png
+│  │  │  │          a668a70a0926ad1cb891971ec71d046a.png
+│  │  │  │          a6752b0a8514ab7a210c55b628e4109d.png
+│  │  │  │          a91bb2a9b4802b9ead31eea7bda4fcb0.png
+│  │  │  │          ad0718d6e5218be6e6fce9dc775a38e6.png
+│  │  │  │          b43a77849cccc673c01eb1d955be95be.png
+│  │  │  │          b50a4d539efaa0aafc11dcb71e3f4f06.png
+│  │  │  │          b62d24a1f709496a6d7c65f87464e911.jpg
+│  │  │  │          c253003fd554715036bdcbed68c4f529.png
+│  │  │  │          c60e60f6b8d56cc710aa51467361e768.png
+│  │  │  │          c6ce5b2c673e4034dd4e7fef83ee7519.png
+│  │  │  │          c8eedc42ed9feb21fac64e4de8d39a06.png
+│  │  │  │          c96ee5a3cd170bde2527fa5d35f0c2e2.png
+│  │  │  │          ca95a18f002bc9ca5d42f642b91968bf.png
+│  │  │  │          caef2451f83822e30759cf0ab858c044.png
+│  │  │  │          cf5783d6535784f5224dd368a4cec2dc.png
+│  │  │  │          cf65d78a5859aafa773630d81ec4ec6c.jpg
+│  │  │  │          d027a0612664ea460247c8637b25e306.jpg
+│  │  │  │          d2b5edeec313c62d57f1c4e401f572ec.jpg
+│  │  │  │          d9223d0608160eca81efc1a625b12b9c.png
+│  │  │  │          dcc7b5ffac10f2b8fbdc9c1b0ae114ea.png
+│  │  │  │          dd33179ceccbd8b0b59a5ae698847049.png
+│  │  │  │          e29a3810a136e9f658a522555ea07d0c.jpg
+│  │  │  │          e6f8e2a79c70e5ca647a1d2ec65c1018.jpg
+│  │  │  │          e8b2ca5d539cfb3bd03a7fb7cd6e18e3.png
+│  │  │  │          ebd16ff388f9d7a7f05f101a7a05b9e5.jpg
+│  │  │  │          f1431d736d6cf7ba34c678a051457c90.png
+│  │  │  │          f2bf6bda394b1698a6406fd780932694.png
+│  │  │  │          f44bf4e35169333d27340ef0281b6b16.png
+│  │  │  │          fd972bbda0297c9dc7454ee64d5e27f2.png
+│  │  │  │          
+│  │  │  └─经典机器学习模型(下)
+│  │  │          .gitkeep
+│  │  │          svc.md
+│  │  │          SVR.md
+│  │  │          贝叶斯信念网络.md
+│  │  │          
+│  │  └─数据探险一族带你走进机器学习的魔法森林
+│  │      ├─树模型与集成学习(上)
+│  │      │  │  .gitkeep
+│  │      │  │  Stacking Ensemble Learning.md
+│  │      │  │  决策树.md
+│  │      │  │  孤立森林(iForest, Isolation Forest).md
+│  │      │  │  极端随机树.md
+│  │      │  │  随机森林(RF, Random Forest).md
+│  │      │  │  
+│  │      │  └─media
+│  │      │          .gitkeep
+│  │      │          1553ac241e9cabaf0d0ab838749c557e.png
+│  │      │          1e26a776b1e5e186a419e1a22c390caf.png
+│  │      │          85ac1599640fa9c7459970b3e8a7d83a.png
+│  │      │          9d7c8105d134301beb2200c66d3b9a57.png
+│  │      │          a7ff3d17d643f1158ee6e3f200925c98.png
+│  │      │          b7eaad03ae5e01431a5938226c7a928e.png
+│  │      │          bagging.PNG
+│  │      │          iForest_algorithm1.png
+│  │      │          iForest_algorithm2.png
+│  │      │          iForest_algorithm3.png
+│  │      │          iForest_formula1.png
+│  │      │          iForest_formula2.PNG
+│  │      │          公式显示脚本
+│  │      │          
+│  │      └─树模型与集成学习(下)
+│  │              .gitkeep
+│  │              正则化贪心森林（RGF）.md
+│  │              深度森林（gcForest）.md
+│  │              
+│  ├─02 kafka
+│  │  │  .gitkeep
+│  │  │  kafka消费端数据积压的几种特殊场景及解决方案.md
+│  │  │  README.md
+│  │  │  通过kafka做实时计算的几点经验.md
+│  │  │  
+│  │  └─Kafka基本概念与数据一致性
+│  │      │  README.md
+│  │      │  
+│  │      └─img
+│  │              p1.png
+│  │              p2.png
+│  │              p3.png
+│  │              p4.png
+│  │              p5.png
+│  │              
+│  ├─03 Elasticsearch
+│  │      .gitkeep
+│  │      Elasticsearch数据存储机制及性能瓶颈分析.md
+│  │      
+│  ├─04 Kylin
+│  │  │  .gitkeep
+│  │  │  大数据技术实践之Kylin.md
+│  │  │  
+│  │  └─image
+│  │          caozuobuzhou.png
+│  │          cubeyouhua.jpg
+│  │          daping.png
+│  │          jiagou.png
+│  │          jiemian.png
+│  │          juhezu.jpg
+│  │          kcjk.png
+│  │          lianhewei.png
+│  │          lijie.png
+│  │          moxing.png
+│  │          peizhi.png
+│  │          xiaoliangbiao.png
+│  │          xtsj.png
+│  │          
+│  ├─05 Storm
+│  │  │  .gitkeep
+│  │  │  storm数据加工实践总结及应用.md
+│  │  │  
+│  │  └─image
+│  │          .gitkeep
+│  │          图片1.png
+│  │          图片2.png
+│  │          图片3.png
+│  │          图片4.png
+│  │          
+│  ├─06 Hive
+│  │      .gitkeep
+│  │      hive结果.png
+│  │      mapreduce与hive协同实践.md
+│  │      test_zyc_副本.md
+│  │      图2-1.png
+│  │      打包.png
+│  │      数据开发优化小节.docx
+│  │      查看目录结构.png
+│  │      查看结果.png
+│  │      编译.png
+│  │      路由图片-a.png
+│  │      路由图片-b.png
+│  │      输入文件.png
+│  │      
+│  └─07 数据结构
+│          .gitkeep
+│          README.md
+│          
+├─07 框架中间件工具
+│  │  .gitkeep
+│  │  README.md
+│  │  
+│  ├─01 EDI
+│  │      .gitkeep
+│  │      EDI介绍.md
+│  │      
+│  ├─02 Spring
+│  │      .gitkeep
+│  │      README.md
+│  │      
+│  ├─03 Mybatis
+│  │      .gitkeep
+│  │      README.md
+│  │      
+│  ├─04 JSF
+│  │  │  .gitkeep
+│  │  │  README.md
+│  │  │  
+│  │  ├─img
+│  │  │      .gitkeep
+│  │  │      1.png
+│  │  │      10.png
+│  │  │      11.png
+│  │  │      2.png
+│  │  │      3.png
+│  │  │      4.png
+│  │  │      5.png
+│  │  │      6.png
+│  │  │      7.png
+│  │  │      9.png
+│  │  │      
+│  │  └─JSF框架原理介绍
+│  │          .gitkeep
+│  │          
+│  ├─05 JMQ
+│  │      .gitkeep
+│  │      JMQ原理及实现.pdf
+│  │      README.md
+│  │      
+│  ├─06 缓存置换策略
+│  │      .gitkeep
+│  │      README.md
+│  │      
+│  ├─07 开发工具
+│  │  │  .gitkeep
+│  │  │  README.md
+│  │  │  
+│  │  ├─02 Git-flow 工作流程
+│  │  │      git-flow-commands.png
+│  │  │      git-flow-idea-plugin.png
+│  │  │      git-model@2x.png
+│  │  │      README.md
+│  │  │      
+│  │  ├─03代码生成器的使用
+│  │  │      .gitkeep
+│  │  │      README.md
+│  │  │      代码自动生成器的使用.pptx
+│  │  │      
+│  │  ├─maven常用优化手段
+│  │  │      .gitkeep
+│  │  │      maven常用优化.pdf
+│  │  │      README.md
+│  │  │      
+│  │  └─使用Maven管理java项目
+│  │      │  Maven-installation.md
+│  │      │  readme.md
+│  │      │  What-is-Maven.md
+│  │      │  
+│  │      └─img
+│  │              maven-overview.png
+│  │              super-pom.png
+│  │              Win10-env.png
+│  │              
+│  ├─08 连接池最佳实践
+│  │      .gitkeep
+│  │      DBCP连接池原理及实践.md
+│  │      image1.png
+│  │      
+│  ├─09 典型项目构建解读
+│  │      .gitkeep
+│  │      README.md
+│  │      
+│  ├─10 公共组件
+│  │  │  .gitkeep
+│  │  │  README.md
+│  │  │  
+│  │  └─数据蜂巢
+│  │          .gitkeep
+│  │          
+│  ├─11 AOP
+│  │      .gitkeep
+│  │      README.md
+│  │      
+│  └─12 服务治理
+│          .gitkeep
+│          README.md
+│          服务容错.pdf
+│          
+├─08 规范
+│  │  .gitkeep
+│  │  README.md
+│  │  
+│  └─01 代码设计规范
+│          .gitkeep
+│          Java开发规范.md
+│          
+├─09 安全
+│  │  .gitkeep
+│  │  README.md
+│  │  
+│  ├─01 安全相关
+│  │  │  .gitkeep
+│  │  │  
+│  │  └─Web前端黑客技术揭秘
+│  │          .gitkeep
+│  │          pic1.png
+│  │          pic2.png
+│  │          README.md
+│  │          
+│  └─02 证书加密
+│      │  .gitkeep
+│      │  
+│      └─软件加密原理与应用
+│              .gitkeep
+│              README.md
+│              rsa.jpg
+│              
+├─10 UML建模
+│  │  01 UML简介.md
+│  │  02 开发过程和UML.md
+│  │  03 类图.md
+│  │  README.md
+│  │  
+│  └─图片
+│          .gitkeep
+│          UML图.PNG
+│          
+├─11 人工智能
+│      .gitkeep
+│      README.md
+│      
+└─12 移动
+        .gitkeep
+        README.md
+        

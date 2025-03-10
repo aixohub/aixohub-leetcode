@@ -24,9 +24,12 @@ import java.util.HashMap;
  * </pre>
  */
 public class LongestSubstringWithoutRepeatingCharacters {
+
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
     }
+
+
 
     public static int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) {

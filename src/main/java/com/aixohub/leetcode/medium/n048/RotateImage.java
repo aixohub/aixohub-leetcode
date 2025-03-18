@@ -72,5 +72,6 @@ public class RotateImage {
                 {15, 14, 12, 16}
         };
         rotate(matrix2);
+        System.out.println(Arrays.deepToString(matrix2));
     }
 }

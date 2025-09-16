@@ -9,7 +9,7 @@ public class TrappingRainWater {
         System.out.println(trap(height1)); // 输出: 6
 
         int[] height2 = {4, 2, 0, 3, 2, 5};
-        System.out.println(trap(height2)); // 输出: 9
+        System.out.println(trap2(height2)); // 输出: 9
     }
 
     public static int trap(int[] height) {
@@ -42,4 +42,25 @@ public class TrappingRainWater {
         return water;
     }
 
+    public static int trap2(int[] height) {
+        if (height == null || height.length == 0) {
+            return 0;
+        }
+        int left = 0, right = height.length -1;
+        int sum = 0;
+        int leftMax = 0, rightMax = 0;
+        while (left < right) {
+            leftMax = Math.max(height[left], leftMax);
+            rightMax = Math.max(height[right], rightMax);
+            if (height[left] < height[right]){
+              sum += leftMax - height[left] ;
+              left++;
+            } else {
+                sum += rightMax - height[right];
+                right++;
+            }
+
+        }
+        return sum;
+    }
 }

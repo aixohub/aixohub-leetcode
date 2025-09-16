@@ -1,4 +1,4 @@
-package com.aixohub.leetcode.medium.findMaxForm;
+package com.aixohub.leetcode.medium.n474;
 
 /**
  *

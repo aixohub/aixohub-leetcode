@@ -8,6 +8,15 @@ import java.util.Arrays;
  */
 public class FirstMissingPositive {
 
+    public static void main(String[] args) {
+        int[] nums = {3, 4, -1, 1};
+        int i = firstMissingPositive(nums);
+        System.out.println(Arrays.toString(nums));
+        System.out.println(i);
+
+    }
+
+
     public static int firstMissingPositive(int[] nums) {
         int n = nums.length;
 
@@ -36,11 +45,5 @@ public class FirstMissingPositive {
         nums[j] = temp;
     }
 
-    public static void main(String[] args) {
-        int[] nums = {3, 4, -1, 1};
-        int i = firstMissingPositive(nums);
-        System.out.println(Arrays.toString(nums));
-        System.out.println(i);
 
-    }
 }
